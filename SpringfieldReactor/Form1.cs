@@ -39,7 +39,7 @@ namespace SpringfieldReactor {;
             SoundPlayer player = new SoundPlayer(Properties.resources.alert);
             player.Play();
 
-            ReactorLabel.Text = "Really Not Good!";
+            ReactorLabel.Text = "Not Good!";
             Reactor1.BackColor = Color.Red;
             Reactor2.BackColor = Color.Red;
             Refresh();
@@ -50,7 +50,7 @@ namespace SpringfieldReactor {;
             Refresh();
             Thread.Sleep(1000);
 
-            ReactorLabel.Text = "Really Not Good!";
+            ReactorLabel.Text = "Not Good!";
             Reactor1.BackColor = Color.Red;
             Reactor2.BackColor = Color.Red;
             Refresh();
